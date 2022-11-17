@@ -1,0 +1,245 @@
+{
+    "author": "Mathew Reiss",
+    "dependencies": {
+        "kiezelpay-core": "^2.0.3",
+        "pebble-clay": "^1.0.2",
+        "pebble-dash-api": "^1.0.1",
+        "pebble-events": "^1.0.2",
+        "pebble-localize": "^0.0.6"
+    },
+    "keywords": [],
+    "name": "snowy",
+    "pebble": {
+        "capabilities": [
+            "location",
+            "configurable",
+            "health"
+        ],
+        "displayName": "Snowy",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "Lang",
+            "Transcript",
+            "Title",
+            "Body",
+            "Error",
+            "Fullscreen",
+            "HandsFree",
+            "NightMode",
+            "Custom[4]",
+            "TemperatureUnit",
+            "FontSize",
+            "QuickExit",
+            "FlickToDismiss",
+            "ConfirmDictation",
+            "Widget",
+            "StepGoal",
+            "StepGoalRequest",
+            "InactivityMonitor",
+            "StepsRequest",
+            "DistanceRequest",
+            "LocationRequest",
+            "PALChargeRequest",
+            "Timer",
+            "Alarm",
+            "HeartRateRequest",
+            "Directions",
+            "SleepRequest",
+            "HealthNotified",
+            "HealthStepGoalReached",
+            "HomeAddress",
+            "WorkAddress",
+            "InactivityStart",
+            "InactivityEnd",
+            "WidgetExtra",
+            "MasterKeyPIN",
+            "IftttKey",
+            "WuKey",
+            "WolframKey",
+            "TravelKey",
+            "HabitsKey",
+            "Settings",
+            "Message",
+            "Request",
+            "DashBatteryRequest",
+            "DashSetWifiRequest",
+            "DashSetRingerRequest",
+            "DashSetHotspotRequest",
+            "CustomCount",
+            "DashSMSRequest",
+            "DashCalendarRequest",
+            "Reddit",
+            "IftttPlus",
+            "MasterKeyEmail",
+            "MasterKeyEnabled",
+            "DistanceUnit",
+            "WorkerLaunchReason",
+            "StepGoalNotified",
+            "InactivityLastAlert",
+            "Custom1",
+            "Custom2",
+            "Custom3",
+            "Custom4"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "data/dict_danish",
+                    "name": "DICT_DANISH_BETA",
+                    "targetPlatforms": null,
+                    "type": "raw"
+                },
+                {
+                    "file": "images/HEAVY_RAIN.png",
+                    "name": "HEAVY_RAIN",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/PARTLY_CLOUDY.png",
+                    "name": "PARTLY_CLOUDY",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/HEAVY_SNOW.png",
+                    "name": "HEAVY_SNOW",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/LIGHT_RAIN.png",
+                    "name": "LIGHT_RAIN",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/SCHEDULED_FLIGHT.png",
+                    "name": "PLANE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/TIMELINE_SUN.png",
+                    "name": "SUNNY",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/LIGHT_SNOW.png",
+                    "name": "LIGHT_SNOW",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/CLOUDY_DAY.png",
+                    "name": "CLOUDY",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/ALARM_CLOCK.png",
+                    "name": "CLOCK",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/CAR_RENTAL.png",
+                    "name": "CAR",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/SHOE.png",
+                    "name": "SHOE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/snowy_notification.png",
+                    "menuIcon": true,
+                    "name": "ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/snowy_bg_basalt.png",
+                    "name": "BG",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/info_icon.png",
+                    "name": "INFO",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/question_mark_icon.png",
+                    "name": "SAMPLE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/down_indicator.png",
+                    "name": "INDICATOR",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/dictation_icon.png",
+                    "name": "MIC",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "fonts/LECO_1976-Regular.otf",
+                    "name": "FONT_CUSTOM_LECO_14",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "data/dict_spanish",
+                    "name": "DICT_SPANISH",
+                    "targetPlatforms": null,
+                    "type": "raw"
+                },
+                {
+                    "file": "data/dict_portuguese",
+                    "name": "DICT_PORTUGUESE_BETA",
+                    "targetPlatforms": null,
+                    "type": "raw"
+                },
+                {
+                    "file": "data/dict_german",
+                    "name": "DICT_GERMAN",
+                    "targetPlatforms": null,
+                    "type": "raw"
+                },
+                {
+                    "file": "data/dict_french",
+                    "name": "DICT_FRENCH",
+                    "targetPlatforms": null,
+                    "type": "raw"
+                },
+                {
+                    "file": "data/dict_english",
+                    "name": "DICT_ENGLISH",
+                    "targetPlatforms": null,
+                    "type": "raw"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "70c08ef8-8c80-46ac-83f7-1af4b43949cb",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "4.0.0"
+}
